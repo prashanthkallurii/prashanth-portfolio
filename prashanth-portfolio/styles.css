@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #222;
+    padding: 50px;
+}
+
+.hero .highlight {
+    color: #00a8e8;
+}
+
+.hero .btn {
+    background-color: #00a8e8;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.hero img {
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid gold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-card, .edu-card, .exp-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.skills-list li {
+    background: #00a8e8;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px;
+}
